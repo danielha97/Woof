@@ -1,0 +1,456 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  height: 106vh;
+  background-image: url(/Img/hero-background.png);
+}
+
+.hero-wave .logo {
+  width: 400px;
+  z-index: 1;
+  margin-left: 40%;
+}
+
+.hero-image {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 500px;
+  margin-left: 50%;
+  margin-top: 13%;
+}
+
+.navigation-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 200px;
+}
+
+.hero-wave img {
+  background-size: cover;
+  display: block;
+  position: absolute;
+  background-color: rgb(255, 254, 247);
+}
+
+.navigation-list li {
+  margin: 50px;
+  list-style: none;
+  font-size: 30px;
+  background-color: #e5a71f;
+  font-family: "Nerko One", cursive;
+  color: rgb(32, 31, 31);
+  z-index: 2;
+  border: 5px solid #d3bc3b;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+.navigation-list li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.navigation-list li a:hover {
+  color: #ffffff;
+  transition: 500ms;
+}
+
+.navigation-list li:hover {
+  background-color: #fee554;
+  transition: 300ms;
+}
+
+.slogan h1 {
+  z-index: 2;
+  font-family: "Indie Flower", cursive;
+  color: rgb(32, 31, 31);
+  position: absolute;
+  font-size: 2.5rem;
+  margin-left: 200px;
+  margin-top: 80px;
+}
+
+.plans-section {
+  background-color: #fee554;
+}
+
+.plan-title {
+  display: flex;
+  justify-content: center;
+  color: rgb(31, 28, 28);
+  font-size: 1.5em;
+  padding-top: 2%;
+}
+
+.plan-title h2 {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 7em;
+}
+
+.plan-box {
+  background-color: #e5a61f34;
+  margin: 0 15%;
+  padding: 5%;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.service-box {
+  background-color: rgb(255, 254, 247);
+  display: inline-block;
+  border-radius: 10px;
+  padding: 25px 60px;
+  box-shadow: 5px 5px 10px 2px #5c5306da;
+  width: 325px;
+  height: 350px;
+  margin: 25px;
+}
+
+.service-title {
+  display: flex;
+  text-decoration: underline #fee554 5px;
+}
+
+.service-title img {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.service-title h3 {
+  font-size: 40px;
+  font-family: "Indie Flower", cursive;
+}
+
+.service-plan ul {
+  padding: 30px;
+  text-align: center;
+  font-family: "Patrick Hand", cursive;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.service-button {
+  text-align: center;
+  font-family: "Do Hyeon", sans-serif;
+  color: white;
+  font-size: 20px;
+  border: 5px rgb(253, 82, 82) solid;
+  border-radius: 10px;
+  background-color: #d31919;
+  margin: 20px 25px;
+}
+.service-button a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.service-button:hover {
+  background-color: #fee554;
+  transition: 400ms;
+}
+
+.about-section {
+  position: relative;
+  background-color: #fee554;
+  height: 35vh;
+  width: 100%;
+}
+
+.about-section:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 310px;
+  background: url(/Img/wave.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.about-title {
+  font-family: "East Sea Dokdo", cursive;
+  font-size: 7em;
+  text-align: center;
+}
+
+h4 {
+  text-align: center;
+  font-family: "Indie Flower";
+  font-size: 1.1rem;
+}
+
+.about-container {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+}
+
+.about-list {
+  display: flex;
+  justify-content: center;
+  margin-left: 100px;
+}
+
+.about-list img {
+  width: 40px;
+  height: auto;
+}
+
+.about-list p {
+  font-size: 20px;
+  font-family: "Do Hyeon", sans-serif;
+  margin-top: 5px;
+}
+
+.footer-image {
+  margin-top: 5%;
+}
+
+.footer-image img {
+  width: 800px;
+  height: auto;
+  display: flex;
+  margin: 0 auto;
+}
+
+.footer-container {
+  background-color: #242222;
+  display: flex;
+  padding: 20px 0px;
+  justify-content: center;
+}
+
+.footer-box {
+  display: inline-block;
+  padding: 20px 100px;
+  border-right: #ac9e9e solid 2px;
+}
+
+.footer-title {
+  font-family: "Do Hyeon", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-decoration: underline #131212 3px;
+}
+
+.footer-box ul li {
+  font-family: "Do Hyeon", sans-serif;
+  margin: 5px;
+  list-style-type: none;
+}
+
+.footer-box ul li a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.footer-box ul li a:hover {
+  color: #ac9e9e;
+  transition: 500ms;
+}
+
+.footer-links {
+  display: inline-block;
+  margin: auto 0px;
+}
+
+.footer-links ul {
+  display: flex;
+}
+
+.footer-links ul li {
+  list-style: none;
+}
+
+.footer-links ul li img {
+  display: inline-block;
+  width: 45px;
+  margin-left: 20px;
+}
+
+.footer-links ul li a img:hover {
+  transform: scale(1.3);
+  transition: 300ms;
+}
+
+@media (max-width: 1200px) {
+  .hero-image {
+    width: 400px;
+    padding-top: 140px;
+    margin-left: 55%;
+  }
+  .slogan h1 {
+    font-size: 1.7rem;
+    margin-left: 50px;
+  }
+  .hero-wave .logo {
+    margin-left: 34%;
+  }
+  .plan-title {
+    font-size: 1.4rem;
+  }
+  .service-box {
+    width: 280px;
+    height: 350px;
+  }
+  .plan-box {
+    margin: 0 5%;
+  }
+  h4 {
+    margin: 0 5%;
+  }
+  .footer-container {
+    padding-right: 50px;
+  }
+}
+
+@media (max-width: 992px) {
+  .hero-image {
+    width: 350px;
+    padding-top: 140px;
+  }
+  .hero-wave .logo {
+    margin-left: 32%;
+  }
+  .slogan h1 {
+    font-size: 1.6rem;
+    margin-left: 50px;
+  }
+  .hero-image {
+    width: 400px;
+    padding-top: 200px;
+    margin-left: 55%;
+  }
+  .service-box {
+    width: 250px;
+    height: 350px;
+    margin: 20px;
+    padding: 25px 35px;
+  }
+  .service-title h3 {
+    font-size: 35px;
+  }
+
+  .about-list {
+    margin-left: 60px;
+  }
+  .footer-image img {
+    width: 700px;
+  }
+  .footer-box {
+    padding: 20px 50px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-image {
+    width: 300px;
+    padding-top: 280px;
+  }
+  .hero-wave .logo {
+    margin-left: 27%;
+  }
+
+  .navigation-list li {
+    font-size: 20px;
+    margin: 30px;
+  }
+  .navigation-list {
+    padding-top: 230px;
+  }
+  .plan-title {
+    font-size: 1.1rem;
+  }
+  .service-box {
+    width: 200px;
+    height: 300px;
+    margin: 15px;
+    padding: 25px 25px;
+  }
+
+  .plan-box {
+    margin: 0 2%;
+  }
+
+  .service-title h3 {
+    font-size: 30px;
+  }
+  .service-title img {
+    width: 40px;
+    height: auto;
+  }
+
+  .service-plan ul {
+    padding: 10px;
+  }
+  .about-list {
+    margin-left: 20px;
+  }
+  .footer-image img {
+    width: 500px;
+  }
+  .footer-box {
+    padding: 20px 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-image {
+    display: none;
+  }
+  .hero-wave .logo {
+    margin-left: 18%;
+  }
+  .navigation-list li {
+    font-size: 18px;
+    margin: 20px;
+  }
+  .navigation-list {
+    padding-top: 250px;
+  }
+  .service-box {
+    width: 150px;
+    height: 280px;
+    padding: 15px 20px;
+    margin: 10px;
+  }
+  .service-title img {
+    width: 20px;
+    height: auto;
+  }
+  .service-title h3 {
+    font-size: 25px;
+  }
+  .service-button {
+    margin: 20px 5px;
+  }
+  .footer-image img {
+    width: 400px;
+  }
+  .about-list img {
+    width: 20px;
+    height: auto;
+  }
+  .footer-links ul {
+    display: inline-block;
+  }
+  .footer-links ul li img {
+    width: 40px;
+    margin-top: 5px;
+  }
+  .footer-links ul {
+    margin-left: 20px;
+  }
+  .slogan h1 {
+    margin-left: 30px;
+  }
+}
