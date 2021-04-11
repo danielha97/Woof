@@ -115,7 +115,7 @@ links.forEach((link)=>{
         let spot = document.getElementById(id)
         let location = spot.offsetTop;
         window.scrollTo({
-            top:location -80,
+            top:location -120,
             left:0
         })
         event.preventDefault();

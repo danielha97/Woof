@@ -154,7 +154,9 @@
   font-size: 20px;
   list-style: circle;
 }
-
+.service-plan ul li {
+  margin-top: 5px;
+}
 .service-button {
   text-align: center;
   font-family: "Do Hyeon", sans-serif;
@@ -163,7 +165,7 @@
   border: 3px rgb(253, 82, 82) solid;
   border-radius: 10px;
   background-color: #d31919;
-  margin: 20px 25px;
+  margin: 0px 25px;
   cursor: pointer;
 }
 .service-button a {
@@ -615,7 +617,7 @@ h4 {
   height: 40%;
   width: 100%;
   border-radius: 10px;
-  background-color: #f5e7e7;
+  background-color: #ffffff;
   margin-top: 20px;
   box-shadow: 2px 2px 2px #131212;
 }
@@ -834,27 +836,85 @@ h4 {
     margin-left: 55%;
   }
   .slogan h1 {
-    font-size: 1.7rem;
+    font-size: 2rem;
     margin-left: 50px;
+    margin-top: 40%;
   }
   .hero-wave .logo {
-    margin-left: 34%;
+    margin-left: 0%;
   }
   .plan-title {
     font-size: 1.4rem;
   }
   .service-box {
-    width: 280px;
-    height: 350px;
+    width: 250px;
+    height: auto;
+    margin: 50px;
+  }
+  .service-plan ul {
+    font-size: 16px;
+    padding: 5px;
+  }
+  .service-title h3 {
+    font-size: 30px;
+  }
+  .tab-name {
+    font-size: 12px;
+  }
+  .tab-block {
+    height: 100%;
+  }
+  .tab-btn {
+    margin-top: 35%;
+    margin-left: 80%;
+  }
+
+  .toy img {
+    width: 200px;
+    height: 200px;
+  }
+  .toy-btn {
+    margin-left: 80%;
+    margin-top: 27%;
   }
   .plan-box {
-    margin: 0 5%;
+    margin: 0%;
   }
   h4 {
     margin: 0 5%;
   }
   .footer-container {
     padding-right: 50px;
+  }
+  .s-block {
+    width: 60%;
+    height: 60%;
+  }
+
+  .t-img {
+    width: 100px;
+    height: 100px;
+  }
+  .t-block {
+    margin: 5px;
+  }
+  .s-block ul h3 {
+    font-size: 18px;
+  }
+  .t-block ul li {
+    font-size: 12px;
+  }
+  .d-container {
+    height: 70%;
+  }
+  .d-block h4 {
+    font-size: 20px;
+  }
+  .d-block ul li {
+    font-size: 14px;
+  }
+  .d-btn {
+    margin-top: 10px;
   }
 }
 
@@ -864,7 +924,7 @@ h4 {
     padding-top: 140px;
   }
   .hero-wave .logo {
-    margin-left: 32%;
+    margin-left: 0%;
   }
   .slogan h1 {
     font-size: 1.6rem;
@@ -884,9 +944,35 @@ h4 {
   .service-title h3 {
     font-size: 35px;
   }
-
+  .service-button {
+    margin-top: 50px;
+  }
+  .tab-btn {
+    margin-top: 43%;
+    margin-left: 75%;
+  }
+  .toy-btn {
+    margin-top: 30%;
+    margin-left: 75%;
+  }
+  .s-block p {
+    font-size: 13px;
+  }
   .about-list {
     margin-left: 60px;
+  }
+  .t-img {
+    width: 60px;
+    height: 60px;
+  }
+  .s-block ul h3 {
+    font-size: 15px;
+  }
+  .d-block h4 {
+    font-size: 18px;
+  }
+  .d-block ul li {
+    font-size: 12px;
   }
   .footer-image img {
     width: 700px;
@@ -897,11 +983,8 @@ h4 {
 }
 @media (max-width: 768px) {
   .hero-image {
-    width: 300px;
+    width: 350px;
     padding-top: 280px;
-  }
-  .hero-wave .logo {
-    margin-left: 27%;
   }
 
   .navigation-list li {
@@ -920,9 +1003,20 @@ h4 {
     margin: 15px;
     padding: 25px 25px;
   }
-
-  .plan-box {
-    margin: 0 2%;
+  .service-button {
+    margin-top: 30px;
+  }
+  .tab-btn {
+    margin-top: 50%;
+    margin-left: 70%;
+  }
+  .toy img {
+    width: 150px;
+    height: 150px;
+  }
+  .toy-btn {
+    margin-top: 40%;
+    margin-left: 70%;
   }
 
   .service-title h3 {
@@ -951,15 +1045,65 @@ h4 {
   .hero-image {
     display: none;
   }
-  .hero-wave .logo {
-    margin-left: 18%;
-  }
+
   .navigation-list li {
     font-size: 18px;
     margin: 20px;
   }
   .navigation-list {
     padding-top: 250px;
+  }
+  .slogan h1 {
+    margin-top: 60%;
+  }
+  .service-plan ul li {
+    font-size: 13px;
+  }
+  .s-block {
+    height: 80%;
+    padding: 0;
+    margin-top: 10%;
+  }
+  .s-block ul h3 {
+    font-size: 13px;
+  }
+  .rate {
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .tab-btn {
+    margin-top: 78%;
+    margin-left: 60%;
+  }
+  .toy img {
+    width: 120px;
+    height: 120px;
+  }
+  .toy-btn {
+    margin-left: 60%;
+    margin-top: 65%;
+  }
+  .review-container {
+    display: none;
+  }
+  .t-box p {
+    font-size: 13px;
+  }
+  .s-block p {
+    font-size: 10px;
+  }
+  .s-cuts {
+    display: block;
+  }
+  .s-cuts ul {
+    width: 60%;
+    padding: 5px;
+  }
+  .item {
+    margin-top: 2px;
+  }
+  .s-btns {
+    margin-right: 80px;
   }
   .service-box {
     width: 150px;
